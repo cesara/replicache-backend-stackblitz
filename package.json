@@ -9,6 +9,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "replicache": "^11.2.0",
-    "replicache-express": "^0.1.4"
+    "replicache-express": "^0.1.4",
+    "pg": ">=8.6.0",
+    "pg-mem": ">=2.5.0",
+    "zod": ">=3.17.3"
   }
 }
