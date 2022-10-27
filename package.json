@@ -3,9 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "node --experimental-specifier-resolution=node index.js"
   },
+  "type": "module",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "replicache": "^11.2.0",
+    "replicache-express": "^0.1.4"
   }
 }
