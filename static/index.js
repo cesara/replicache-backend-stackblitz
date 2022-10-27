@@ -1,7 +1,8 @@
 import {
   Replicache,
   TEST_LICENSE_KEY,
-} from 'https://unpkg.com/replicache@11.2.0/out/replicache.js';
+} from "https://unpkg.com/replicache@11.2.0/out/replicache.js";
+
 
 function log(msg) {
   document.querySelector('#log').value += msg + '\n';
