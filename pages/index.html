@@ -2,6 +2,13 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css" />
+    <script>
+      window.process = {
+        env: {
+          NODE_ENV: "prod",
+        },
+      };
+    </script>
     <script type="module" src="index.js"></script>
   </head>
   <body>
