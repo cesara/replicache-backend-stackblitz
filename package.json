@@ -8,6 +8,8 @@
   "type": "module",
   "dependencies": {
     "express": "^4.17.1",
+    "nanoid": "^4.0.0",
+    "node-fetch": "^3.2.10",
     "pg": ">=8.6.0",
     "pg-mem": ">=2.5.0",
     "replicache": "^11.2.0",
