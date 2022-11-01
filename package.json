@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node --experimental-specifier-resolution=node index.js"
+    "start": "node index.js"
   },
   "type": "module",
   "dependencies": {
@@ -13,7 +13,7 @@
     "pg": ">=8.6.0",
     "pg-mem": ">=2.5.0",
     "replicache": "^11.2.0",
-    "replicache-express": "^0.1.4",
+    "replicache-express": "^0.1.6",
     "zod": ">=3.17.3"
   }
 }
